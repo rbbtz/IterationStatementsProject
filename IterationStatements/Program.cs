@@ -15,15 +15,12 @@ namespace IterationStatements
             //Create a variable of type int and initialize the variable with a value of 0
             var myNumber = 0;
 
-
             // Create a do-while loop
-            {
-                // Increment your variable by 1
-                // Then add your variable to "numbers"
-            }
+
+            // Increment your variable by 1
+            // Then add your variable to "numbers"
+
             // While your variable is less than 100
-
-
 
             do
             {
@@ -31,8 +28,7 @@ namespace IterationStatements
 
                 numbers.Add(myNumber); //
 
-            } while (myNumber <100);
-
+            } while (myNumber < 100);
 
             // Create a while loop
             // While your variable is less than 200
@@ -65,7 +61,6 @@ namespace IterationStatements
             {
                 Console.WriteLine($"{numbers[i]}");
                 // Write to the console "numbers" at index i
-
 
 
             }
